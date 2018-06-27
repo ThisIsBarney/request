@@ -1,0 +1,46 @@
+{
+  "name": "@thisisbarney/request",
+  "version": "0.0.1",
+  "description": "a toolbox of requests",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "node_modules/.bin/babel src --out-dir lib",
+    "go": "yarn publish --access=public",
+    "test": "echo \"No test specified\" && exit 0",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "request"
+  ],
+  "author": "Marshall WU <wujian.thu@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "d3-request": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-stage-0": "^7.0.0-beta.49",
+    "babel-eslint": "^8.0.3",
+    "cross-env": "^5.1.6",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.9.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "json-loader": "^0.5.7",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "semantic-release": "^15.5.0",
+    "travis-deploy-once": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThisIsBarney/request.git"
+  }
+}
