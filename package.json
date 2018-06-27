@@ -1,6 +1,6 @@
 {
   "name": "@thisisbarney/request",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "a toolbox of requests",
   "main": "lib/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "json-loader": "^0.5.7",
     "mocha": "^4.0.1",
     "nodemon": "^1.12.1",
-    "semantic-release": "^15.5.0",
+    "semantic-release": "^15.6.0",
     "travis-deploy-once": "^5.0.0"
   },
   "repository": {
