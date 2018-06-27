@@ -4,7 +4,7 @@
   "description": "a toolbox of requests",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "node_modules/.bin/babel src --out-dir lib",
+    "prepublishOnly": "node_modules/.bin/babel src --out-dir lib",
     "go": "yarn publish --access=public",
     "test": "echo \"No test specified\" && exit 0",
     "travis-deploy-once": "travis-deploy-once",
