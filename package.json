@@ -18,6 +18,7 @@
   "author": "Marshall WU <wujian.thu@icloud.com>",
   "license": "ISC",
   "dependencies": {
+    "await-to-js": "^2.0.1",
     "d3-request": "^1.0.5"
   },
   "devDependencies": {
